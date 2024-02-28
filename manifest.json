@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Coding Challenge",
+  "description": "Customize the look of a new active chrome tab",
+  "version": "1.0",
+  "action": {
+  },
+  "chrome_url_overrides": {
+    "newtab": "popup/blank.html"
+  },
+  "permmision":["activeTab"]
+}
